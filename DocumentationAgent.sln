@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentationAgent", "DocumentationAgent\DocumentationAgent.csproj", "{66585C16-9BC5-450C-9FC8-741418708895}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chunking", "Chunking", "{9CC462B5-D75C-4702-995D-BAC5CB40C6CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parsing", "Parsing", "{4EFD4879-E6EF-451F-AC76-6DF6606A0387}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow", "Flow", "{2FC5FC3F-979A-4C87-95EE-F7A5AB552175}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{95604DD0-25F0-4C54-BA27-5993C8EA1D84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI", "AI", "{DA30D526-ECA8-4076-BFC4-99637F0F1DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resolution", "Resolution", "{622F6EAA-8CA7-4AB4-B47C-B1D8F815B3AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RoslynHelper", "RoslynHelper", "{CB00988B-F373-44F8-9B28-82B15E0DB18A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ollama", "Ollama", "{871CCEA6-9978-4914-B097-BE13BC42A60B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66585C16-9BC5-450C-9FC8-741418708895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66585C16-9BC5-450C-9FC8-741418708895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66585C16-9BC5-450C-9FC8-741418708895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66585C16-9BC5-450C-9FC8-741418708895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CC462B5-D75C-4702-995D-BAC5CB40C6CC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4EFD4879-E6EF-451F-AC76-6DF6606A0387} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2FC5FC3F-979A-4C87-95EE-F7A5AB552175} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2401B801-D8E1-4DF0-B9A0-B4323465F7B1}
+	EndGlobalSection
+EndGlobal
