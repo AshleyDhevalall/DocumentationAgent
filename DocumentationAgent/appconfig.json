@@ -1,0 +1,7 @@
+{
+  "ollama": {
+    "baseUrl": "http://localhost:11434",
+    "embeddingModel": "nomic-embed-text",
+    "generationModel": "llama3"
+  }
+}
